@@ -121,7 +121,7 @@ export default function Question() {
 
           <div className="mt-12 text-center">
             <p className="text-gray-400 mb-6">
-              Still have questions? We're here to help!
+              Still have questions? We are here to help!
             </p>
             <a
               href="https://wa.me/qr/K5GKCLOXIZ3CE1"
