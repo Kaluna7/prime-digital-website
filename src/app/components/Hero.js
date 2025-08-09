@@ -87,7 +87,7 @@ export default function Hero() {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-0" />
 
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 xl:px-15 relative z-10">
           <div className="max-w-3xl">
             <h1 ref={textRef} id="hero-title" className="text-5xl md:text-7xl font-bold mb-6">
               <span className="block text-gray-300">Digital Excellence</span>

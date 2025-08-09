@@ -66,7 +66,7 @@ export default function Footer() {
         <div className="absolute top-0 left-0 w-full h-full opacity-10">
           <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:40px_40px]" />
         </div>
-        <div className="container mx-auto px-4 relative z-10">
+        <div className="container mx-auto px-4 xl:px-15 relative z-10">
           <div className="flex flex-col md:flex-row justify-between gap-8">
             <div className="mb-6 md:mb-0 flex-1 max-w-md">
               <div className="flex items-center mb-4">
