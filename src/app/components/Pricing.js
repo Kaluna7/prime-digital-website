@@ -27,6 +27,11 @@ export default function Pricing() {
     }))
   };
 
+
+  function handleClick() {
+ window.location.href = "https://wa.me/qr/K5GKCLOXIZ3CE1";
+  }
+
   useEffect(() => {
     let gsapInstance;
 
@@ -120,6 +125,7 @@ export default function Pricing() {
                 </ul>
 
                 <button
+                  onClick={handleClick}
                   className={`w-full py-3 rounded-lg font-bold transition-all  ${
                     plan.popular
                       ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white hover:shadow-lg hover:shadow-green-500/30'
